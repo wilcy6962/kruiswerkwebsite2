@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Activiteiten — Kruiswerk</title>
+<meta name="description" content="Schrijf je in voor activiteiten van Kruiswerk: Fittest, KUNSTwandelroute, Mobiliteitsdagen en meer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@1,8..60,400;1,8..60,500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="assets/logo/Logo-Kruiswerk-2021-RGB_beeldmerk.png">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Direct naar inhoud</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div class="topbar-contact">
+      <a href="tel:0314357430"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> 0314 - 357 430 <span style="opacity:.6;">(ma–vr 9–13u)</span></a>
+      <a href="tel:0881717345" class="topbar-acuut"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/></svg> Acuut: 088 - 17 17 345</a>
+    </div>
+    <div class="topbar-utility">
+      <button id="textSizeBtn" type="button">Aa Tekst groter</button>
+      <button id="contrastBtn" type="button">◐ Contrast</button>
+    </div>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="header-logo"><img src="assets/logo/Kruiswerk-logo-zwart.png" alt="Kruiswerk"></a>
+    <nav aria-label="Hoofdmenu">
+      <ul class="nav-main">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="diensten.html">Diensten</a></li>
+        <li><a href="activiteiten.html" class="active">Activiteiten</a></li>
+        <li><a href="nieuws.html">Nieuws</a></li>
+        <li><a href="https://winkel.kruiswerk.nl" target="_blank" rel="noopener">Winkel</a></li>
+        <li><a href="lid-worden.html">Lid worden</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="lid-worden.html" class="btn btn-primary">Word lid</a>
+    <button class="menu-toggle" type="button" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-hero">
+  <div class="container page-hero-inner">
+    <span class="eyebrow">Agenda</span>
+    <h1>Wat staat er <em class="serif">op de planning?</em></h1>
+    <p>Activiteiten, dagtochten en gezondheidschecks — direct inschrijven kan op deze pagina. Activiteiten zijn voor leden, dus heb je lidnummer bij de hand.</p>
+  </div>
+</section>
+
+<section class="section section-cream">
+  <div class="container">
+    <div class="act-filters" role="tablist" aria-label="Filter activiteiten op type">
+      <button class="act-filter active" type="button" data-filter="all" role="tab">Alle activiteiten</button>
+      <button class="act-filter" type="button" data-filter="fittest" role="tab">Fittest</button>
+      <button class="act-filter" type="button" data-filter="kunst" role="tab">KUNSTwandeling</button>
+      <button class="act-filter" type="button" data-filter="mobiliteit" role="tab">Mobiliteitsdagen</button>
+      <button class="act-filter" type="button" data-filter="dagtocht" role="tab">Dagtocht</button>
+    </div>
+
+    <div class="act-grid" id="actGrid">
+
+      <!-- Fittest Zutphen -->
+      <article class="act-card" data-type="fittest" data-act-id="fittest-zutphen-13mei" data-spots="12">
+        <div class="act-date">
+          <div class="act-date-day">13</div>
+          <div class="act-date-month">Mei</div>
+        </div>
+        <div class="act-content">
+          <span class="act-type">Fittest</span>
+          <h3>Fittest — Zutphen (Hanzehal)</h3>
+          <p>Test je conditie, kracht en balans. Onze gezondheidsadviseurs geven persoonlijk advies.</p>
+          <div class="act-meta">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg> 10:00 uur</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Hanzehal, Zutphen</span>
+          </div>
+          <div class="act-footer">
+            <span class="act-spots" data-spots-display>12 plekken beschikbaar</span>
+            <button type="button" class="btn btn-primary act-aanmelden-btn" onclick="toggleAanmelden(this)">
+              Aanmelden
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg>
+            </button>
+          </div>
+          <div class="act-aanmelden-form">
+            <h4>Inschrijven voor Fittest Zutphen</h4>
+            <p class="form-step-intro">Vul je gegevens in. Je ontvangt een bevestiging per e-mail.</p>
+            <form onsubmit="submitAanmelden(event, this)">
+              <div class="form-row">
+                <div class="form-field">
+                  <label>Naam *</label>
+                  <input type="text" name="naam" required autocomplete="name">
+                </div>
+                <div class="form-field">
+                  <label>Lidnummer *</label>
+                  <input type="text" name="lidnummer" required placeholder="bijv. 12345">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label>E-mailadres *</label>
+                  <input type="email" name="email" required autocomplete="email">
+                </div>
+                <div class="form-field">
+                  <label>Telefoonnummer *</label>
+                  <input type="tel" name="telefoon" required autocomplete="tel">
+                </div>
+              </div>
+              <div class="act-aanmelden-actions">
+                <button type="button" class="btn btn-outline" onclick="toggleAanmelden(this.closest('.act-card').querySelector('.act-aanmelden-btn'))">Annuleer</button>
+                <button type="submit" class="btn btn-primary">Bevestig inschrijving</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </article>
+
+      <!-- KUNSTwandeling slotdag -->
+      <article class="act-card" data-type="kunst" data-act-id="kunstwandel-25mei" data-spots="0">
+        <div class="act-date">
+          <div class="act-date-day">25</div>
+          <div class="act-date-month">Mei</div>
+        </div>
+        <div class="act-content">
+          <span class="act-type">KUNSTwandeling</span>
+          <h3>KUNSTwandelroute (slotdag)</h3>
+          <p>De KUNSTwandelroute (van 2 april - 25 mei) sluit feestelijk af. Wandel langs kunst in de natuur.</p>
+          <div class="act-meta">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg> 10:00 uur</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Diverse locaties</span>
+          </div>
+          <div class="act-footer">
+            <span class="act-spots act-spots-vol" data-spots-display>Vol — wachtlijst</span>
+            <button type="button" class="btn btn-outline act-aanmelden-btn" onclick="toggleAanmelden(this)">
+              Wachtlijst
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg>
+            </button>
+          </div>
+          <div class="act-aanmelden-form">
+            <h4>Op de wachtlijst — KUNSTwandelroute</h4>
+            <p class="form-step-intro">Deze activiteit is vol. We laten je weten als er een plek vrijkomt.</p>
+            <form onsubmit="submitAanmelden(event, this)">
+              <div class="form-row">
+                <div class="form-field">
+                  <label>Naam *</label>
+                  <input type="text" name="naam" required autocomplete="name">
+                </div>
+                <div class="form-field">
+                  <label>Lidnummer *</label>
+                  <input type="text" name="lidnummer" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label>E-mailadres *</label>
+                  <input type="email" name="email" required autocomplete="email">
+                </div>
+                <div class="form-field">
+                  <label>Telefoonnummer *</label>
+                  <input type="tel" name="telefoon" required autocomplete="tel">
+                </div>
+              </div>
+              <div class="act-aanmelden-actions">
+                <button type="button" class="btn btn-outline" onclick="toggleAanmelden(this.closest('.act-card').querySelector('.act-aanmelden-btn'))">Annuleer</button>
+                <button type="submit" class="btn btn-primary">Op wachtlijst zetten</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </article>
+
+      <!-- Mobiliteitsdagen Winterswijk -->
+      <article class="act-card" data-type="mobiliteit" data-act-id="mob-winterswijk-30mei" data-spots="48">
+        <div class="act-date">
+          <div class="act-date-day">30</div>
+          <div class="act-date-month">Mei</div>
+        </div>
+        <div class="act-content">
+          <span class="act-type">Mobiliteitsdagen</span>
+          <h3>Medipoint Mobiliteitsdagen — Winterswijk</h3>
+          <p>Probeer hulpmiddelen, ontmoet experts, en profiteer van extra ledenkortingen op deze dag.</p>
+          <div class="act-meta">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg> 10:00 uur</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Winterswijk</span>
+          </div>
+          <div class="act-footer">
+            <span class="act-spots" data-spots-display>48 plekken beschikbaar</span>
+            <button type="button" class="btn btn-primary act-aanmelden-btn" onclick="toggleAanmelden(this)">
+              Aanmelden
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg>
+            </button>
+          </div>
+          <div class="act-aanmelden-form">
+            <h4>Inschrijven voor Mobiliteitsdagen Winterswijk</h4>
+            <p class="form-step-intro">Vul je gegevens in. Je ontvangt een bevestiging per e-mail.</p>
+            <form onsubmit="submitAanmelden(event, this)">
+              <div class="form-row">
+                <div class="form-field">
+                  <label>Naam *</label>
+                  <input type="text" name="naam" required autocomplete="name">
+                </div>
+                <div class="form-field">
+                  <label>Lidnummer *</label>
+                  <input type="text" name="lidnummer" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label>E-mailadres *</label>
+                  <input type="email" name="email" required autocomplete="email">
+                </div>
+                <div class="form-field">
+                  <label>Telefoonnummer *</label>
+                  <input type="tel" name="telefoon" required autocomplete="tel">
+                </div>
+              </div>
+              <div class="act-aanmelden-actions">
+                <button type="button" class="btn btn-outline" onclick="toggleAanmelden(this.closest('.act-card').querySelector('.act-aanmelden-btn'))">Annuleer</button>
+                <button type="submit" class="btn btn-primary">Bevestig inschrijving</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </article>
+
+      <!-- Mobiliteitsdagen Zutphen -->
+      <article class="act-card" data-type="mobiliteit" data-act-id="mob-zutphen-3jun" data-spots="3">
+        <div class="act-date">
+          <div class="act-date-day">03</div>
+          <div class="act-date-month">Jun</div>
+        </div>
+        <div class="act-content">
+          <span class="act-type">Mobiliteitsdagen</span>
+          <h3>Medipoint Mobiliteitsdagen — Zutphen</h3>
+          <p>Tweede editie van de Mobiliteitsdagen, deze keer in Zutphen. Demonstraties, advies en aanbiedingen.</p>
+          <div class="act-meta">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg> 10:00 uur</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Zutphen</span>
+          </div>
+          <div class="act-footer">
+            <span class="act-spots act-spots-bijna" data-spots-display>Nog 3 plekken — wees er snel bij</span>
+            <button type="button" class="btn btn-primary act-aanmelden-btn" onclick="toggleAanmelden(this)">
+              Aanmelden
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg>
+            </button>
+          </div>
+          <div class="act-aanmelden-form">
+            <h4>Inschrijven voor Mobiliteitsdagen Zutphen</h4>
+            <p class="form-step-intro">Vul je gegevens in. Je ontvangt een bevestiging per e-mail.</p>
+            <form onsubmit="submitAanmelden(event, this)">
+              <div class="form-row">
+                <div class="form-field">
+                  <label>Naam *</label>
+                  <input type="text" name="naam" required autocomplete="name">
+                </div>
+                <div class="form-field">
+                  <label>Lidnummer *</label>
+                  <input type="text" name="lidnummer" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label>E-mailadres *</label>
+                  <input type="email" name="email" required autocomplete="email">
+                </div>
+                <div class="form-field">
+                  <label>Telefoonnummer *</label>
+                  <input type="tel" name="telefoon" required autocomplete="tel">
+                </div>
+              </div>
+              <div class="act-aanmelden-actions">
+                <button type="button" class="btn btn-outline" onclick="toggleAanmelden(this.closest('.act-card').querySelector('.act-aanmelden-btn'))">Annuleer</button>
+                <button type="submit" class="btn btn-primary">Bevestig inschrijving</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </article>
+
+      <!-- Fittest Doetinchem -->
+      <article class="act-card" data-type="fittest" data-act-id="fittest-doetinchem-17jun" data-spots="20">
+        <div class="act-date">
+          <div class="act-date-day">17</div>
+          <div class="act-date-month">Jun</div>
+        </div>
+        <div class="act-content">
+          <span class="act-type">Fittest</span>
+          <h3>Fittest — Doetinchem</h3>
+          <p>Conditietest met begeleiding. Krijg inzicht in je gezondheid en advies om fit te blijven.</p>
+          <div class="act-meta">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg> 10:00 uur</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Doetinchem</span>
+          </div>
+          <div class="act-footer">
+            <span class="act-spots" data-spots-display>20 plekken beschikbaar</span>
+            <button type="button" class="btn btn-primary act-aanmelden-btn" onclick="toggleAanmelden(this)">
+              Aanmelden
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg>
+            </button>
+          </div>
+          <div class="act-aanmelden-form">
+            <h4>Inschrijven voor Fittest Doetinchem</h4>
+            <p class="form-step-intro">Vul je gegevens in. Je ontvangt een bevestiging per e-mail.</p>
+            <form onsubmit="submitAanmelden(event, this)">
+              <div class="form-row">
+                <div class="form-field">
+                  <label>Naam *</label>
+                  <input type="text" name="naam" required autocomplete="name">
+                </div>
+                <div class="form-field">
+                  <label>Lidnummer *</label>
+                  <input type="text" name="lidnummer" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label>E-mailadres *</label>
+                  <input type="email" name="email" required autocomplete="email">
+                </div>
+                <div class="form-field">
+                  <label>Telefoonnummer *</label>
+                  <input type="tel" name="telefoon" required autocomplete="tel">
+                </div>
+              </div>
+              <div class="act-aanmelden-actions">
+                <button type="button" class="btn btn-outline" onclick="toggleAanmelden(this.closest('.act-card').querySelector('.act-aanmelden-btn'))">Annuleer</button>
+                <button type="submit" class="btn btn-primary">Bevestig inschrijving</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </article>
+
+      <!-- Dagtocht Apeldoorn -->
+      <article class="act-card" data-type="dagtocht" data-act-id="dagtocht-apeldoorn-28jun" data-spots="35">
+        <div class="act-date">
+          <div class="act-date-day">28</div>
+          <div class="act-date-month">Jun</div>
+        </div>
+        <div class="act-content">
+          <span class="act-type">Dagtocht</span>
+          <h3>Dagtocht Apeldoorn — Paleis Het Loo</h3>
+          <p>Bezoek aan Paleis Het Loo met groepsbegeleiding. Lunch en koffie inbegrepen.</p>
+          <div class="act-meta">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg> 09:00 uur</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Apeldoorn</span>
+          </div>
+          <div class="act-footer">
+            <span class="act-spots" data-spots-display>35 plekken beschikbaar</span>
+            <button type="button" class="btn btn-primary act-aanmelden-btn" onclick="toggleAanmelden(this)">
+              Aanmelden
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg>
+            </button>
+          </div>
+          <div class="act-aanmelden-form">
+            <h4>Inschrijven voor Dagtocht Apeldoorn</h4>
+            <p class="form-step-intro">Vul je gegevens in. Je ontvangt een bevestiging per e-mail.</p>
+            <form onsubmit="submitAanmelden(event, this)">
+              <div class="form-row">
+                <div class="form-field">
+                  <label>Naam *</label>
+                  <input type="text" name="naam" required autocomplete="name">
+                </div>
+                <div class="form-field">
+                  <label>Lidnummer *</label>
+                  <input type="text" name="lidnummer" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label>E-mailadres *</label>
+                  <input type="email" name="email" required autocomplete="email">
+                </div>
+                <div class="form-field">
+                  <label>Telefoonnummer *</label>
+                  <input type="tel" name="telefoon" required autocomplete="tel">
+                </div>
+              </div>
+              <div class="act-aanmelden-actions">
+                <button type="button" class="btn btn-outline" onclick="toggleAanmelden(this.closest('.act-card').querySelector('.act-aanmelden-btn'))">Annuleer</button>
+                <button type="submit" class="btn btn-primary">Bevestig inschrijving</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <p style="text-align:center; margin-top: var(--sp-7); color: var(--kw-text-soft); font-size: 14px;">
+      Vragen? Bel <a href="tel:0314357430">0314 - 357 430</a> (ma–vr 9–13 uur).
+    </p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html"><img src="assets/logo/Kruiswerk-logo-wit.png" alt="Kruiswerk"></a>
+        <p>De grootste vereniging van de regio. Voor iedereen, in alle fases van je leven — sinds 1875.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pagina's</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="diensten.html">Diensten</a></li>
+          <li><a href="activiteiten.html">Activiteiten</a></li>
+        <li><a href="nieuws.html">Nieuws</a></li>
+        <li><a href="https://winkel.kruiswerk.nl" target="_blank" rel="noopener">Winkel</a></li>
+          <li><a href="lid-worden.html">Lid worden</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Diensten</h4>
+        <ul>
+          <li><a href="diensten.html#service">Service aan huis</a></li>
+          <li><a href="diensten.html#alarmering">Alarmering</a></li>
+          <li><a href="diensten.html#hulpmiddelen">Hulpmiddelen</a></li>
+          <li><a href="diensten.html#winkel">Winkel</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:0314357430">0314 - 357 430</a></div>
+        <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:info@kruiswerk.nl">info@kruiswerk.nl</a></div>
+        <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span style="font-size:13px;">Beatrixplein 1, 7031 AJ Wehl</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 1875–2026 Kruiswerk Achterhoek en Liemers · KvK 40124612</span>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy</a>
+        <a href="#">Cookies</a>
+        <a href="#">Algemene voorwaarden</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="chatbot" id="chatbot" role="dialog" aria-labelledby="chatbotName" aria-hidden="true">
+  <div class="chatbot-header">
+    <div class="chatbot-avatar"><img src="assets/img/bente.png" alt="Bente"></div>
+    <div class="chatbot-info">
+      <div class="chatbot-name" id="chatbotName">Bente</div>
+      <div class="chatbot-role">Ledenconsulent · Online</div>
+    </div>
+    <button class="chatbot-close" type="button" onclick="closeChat()" aria-label="Sluiten"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+  </div>
+  <div class="chatbot-messages" id="chatMessages">
+    <div class="msg bot">Hoi, ik ben Bente. Waar kan ik je mee helpen? 👋</div>
+  </div>
+  <form class="chatbot-input" onsubmit="sendChatMessage(event)">
+    <input type="text" id="chatInput" placeholder="Typ je vraag..." autocomplete="off">
+    <button type="submit" aria-label="Verstuur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></button>
+  </form>
+</div>
+
+<button class="chat-fab" id="chatFab" type="button" onclick="openChat()" aria-label="Chat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></button>
+
+<script src="script.js"></script>
+</body>
+</html>

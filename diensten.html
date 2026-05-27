@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diensten — Kruiswerk</title>
+<meta name="description" content="Bekijk de 40+ diensten van Kruiswerk: service aan huis, alarmering, hulpmiddelen, winkel.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@1,8..60,400;1,8..60,500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="assets/logo/Logo-Kruiswerk-2021-RGB_beeldmerk.png">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Direct naar inhoud</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div class="topbar-contact">
+      <a href="tel:0314357430"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> 0314 - 357 430 <span style="opacity:.6;">(ma–vr 9–13u)</span></a>
+      <a href="tel:0881717345" class="topbar-acuut"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/></svg> Acuut: 088 - 17 17 345</a>
+    </div>
+    <div class="topbar-utility">
+      <button id="textSizeBtn" type="button">Aa Tekst groter</button>
+      <button id="contrastBtn" type="button">◐ Contrast</button>
+    </div>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="header-logo"><img src="assets/logo/Kruiswerk-logo-zwart.png" alt="Kruiswerk"></a>
+    <nav aria-label="Hoofdmenu">
+      <ul class="nav-main">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="diensten.html" class="active">Diensten</a></li>
+        <li><a href="activiteiten.html">Activiteiten</a></li>
+        <li><a href="nieuws.html">Nieuws</a></li>
+        <li><a href="https://winkel.kruiswerk.nl" target="_blank" rel="noopener">Winkel</a></li>
+        <li><a href="lid-worden.html">Lid worden</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="lid-worden.html" class="btn btn-primary">Word lid</a>
+    <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-hero">
+  <div class="container page-hero-inner">
+    <span class="eyebrow">Diensten</span>
+    <h1>Alles wat we voor <em class="serif">jou</em> doen</h1>
+    <p>40+ diensten verdeeld over vier categorieën. Klik op een dienst voor meer info.</p>
+  </div>
+</section>
+
+<!-- SERVICE AAN HUIS -->
+<section class="diensten-section section-cream" id="service">
+  <div class="container">
+    <div class="cat-header reveal">
+      <div class="cat-photo">
+        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=600&q=80" alt="Tuinman aan het werk in een tuin">
+      </div>
+      <div>
+        <h2>Service aan huis</h2>
+        <p>Praktische hulp die het dagelijks leven makkelijker maakt. Van klusjes tot maaltijden — vaak met flink ledenvoordeel.</p>
+      </div>
+    </div>
+    <div class="dienst-tiles reveal-stagger">
+
+      <button class="dienst-tile" onclick="this.classList.toggle('expanded')">
+        <span class="dienst-badge ledenvoordeel">Met ledenvoordeel</span>
+        <h3>Tuinman aan huis</h3>
+        <p>Onderhoud van je tuin, voor leden tegen voordeeltarief.</p>
+        <div class="dienst-tile-detail">
+          Wij hebben afspraken met betrouwbare hoveniers die maandelijks of seizoensgebonden langskomen. Snoeien, gras maaien, onkruid wieden — alles wat nodig is om je tuin er goed bij te laten staan. Bel onze ledenservice voor een offerte op maat.
+        </div>
+        <span class="dienst-tile-toggle">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+      </button>
+
+      <button class="dienst-tile" onclick="this.classList.toggle('expanded')">
+        <span class="dienst-badge ledenvoordeel">Met ledenvoordeel</span>
+        <h3>Maaltijdservice</h3>
+        <p>Verse, gezonde maaltijden bij je thuisbezorgd.</p>
+        <div class="dienst-tile-detail">
+          Verse Hollandse maaltijden of dieetmaaltijden, dagelijks verse bezorging. Vegetarisch, glutenvrij of natriumarm — alle dieetwensen mogelijk. Leden krijgen flink voordeel op het abonnement.
+        </div>
+        <span class="dienst-tile-toggle">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+      </button>
+
+      <button class="dienst-tile" onclick="this.classList.toggle('expanded')">
+        <span class="dienst-badge ledenvoordeel">Met ledenvoordeel</span>
+        <h3>Klusdienst</h3>
+        <p>Een lamp ophangen, kraan vervangen, kleine reparaties — wij kennen iemand.</p>
+        <div class="dienst-tile-detail">
+          Voor de kleine en middelgrote klussen waar je zelf niet aan toekomt. Onze klusservice levert vakwerk tegen een ledentarief. Geen voorrijkosten voor leden.
+        </div>
+        <span class="dienst-tile-toggle">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+      </button>
+
+      <button class="dienst-tile" onclick="this.classList.toggle('expanded')">
+        <span class="dienst-badge ledenvoordeel">Met ledenvoordeel</span>
+        <h3>Mantelzorgondersteuning</h3>
+        <p>Zorg jij voor iemand? Wij staan naast jou met advies en praktische hulp.</p>
+        <div class="dienst-tile-detail">
+          Onze mantelzorgmakelaar helpt met regelzaken, aanvragen en doorverwijzingen. Plus respijtzorg om jou even op adem te laten komen. En een mantelzorgcafé voor lotgenotencontact.
+        </div>
+        <span class="dienst-tile-toggle">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+      </button>
+
+      <button class="dienst-tile" onclick="this.classList.toggle('expanded')">
+        <span class="dienst-badge gratis">Gratis voor leden</span>
+        <h3>Hulp & Adviesgesprek</h3>
+        <p>Gratis adviesgesprek met een Kruiswerk-expert bij jou thuis.</p>
+        <div class="dienst-tile-detail">
+          Onze expert komt langs, neemt rustig de tijd, en helpt je met praktische informatie, doorverwijzingen of het regelen van diensten. Of je nu vastloopt in zorg, hulpmiddelen, of regelzaken — we maken samen een plan.
+        </div>
+        <span class="dienst-tile-toggle">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+      </button>
+
+      <button class="dienst-tile" onclick="this.classList.toggle('expanded')">
+        <span class="dienst-badge gratis">Gratis voor leden</span>
+        <h3>Hulp bij belastingaangifte</h3>
+        <p>Een deskundige helpt je stap voor stap met je digitale aangifte.</p>
+        <div class="dienst-tile-detail">
+          Thuis of telefonisch. Onze financieel zorgadviseur kent alle regelingen, toeslagen en aftrekposten. Vaak krijg je meer terug dan je dacht — en je bent zeker van een correcte aangifte.
+        </div>
+        <span class="dienst-tile-toggle">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+<!-- ALARMERING -->
+<section class="diensten-section section-paper" id="alarmering">
+  <div class="container">
+    <div class="cat-header reveal">
+      <div class="cat-photo">
+        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=600&q=80" alt="Oudere persoon die belt met de hulplijn">
+      </div>
+      <div>
+        <h2>Alarmering & veiligheid</h2>
+        <p>Eén druk op de knop en er komt direct hulp. Veiligheid die je rust geeft.</p>
+      </div>
+    </div>
+    <div class="dienst-tiles reveal-stagger">
+
+      <button class="dienst-tile" onclick="this.classList.toggle('expanded')">
+        <span class="dienst-badge ledenvoordeel">Met ledenvoordeel</span>
+        <h3>Personenalarm thuis</h3>
+        <p>Een zender met directe lijn naar de hulpcentrale.</p>
+        <div class="dienst-tile-detail">
+          Een waterdichte zender om je hals of pols. Druk je op de knop, dan krijg je direct contact met de hulpcentrale. Werkt dag en nacht. Ledentarief is significant lager dan de markt.
+        </div>
+        <span class="dienst-tile-toggle">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+      </button>
+
+      <button class="dienst-tile" onclick="this.classList.toggle('expanded')">
+        <span class="dienst-badge ledenvoordeel">Met ledenvoordeel</span>
+        <h3>Mobiel alarm onderweg</h3>
+        <p>Veiligheid ook buiten de deur, met GPS-locatie.</p>
+        <div class="dienst-tile-detail">
+          Een compact apparaatje met GPS, ideaal voor wandelaars, fietsers, of als je liever niet alleen op pad gaat. De hulpcentrale weet meteen waar je bent.
+        </div>
+        <span class="dienst-tile-toggle">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+      </button>
+
+      <button class="dienst-tile" onclick="this.classList.toggle('expanded')">
+        <span class="dienst-badge gratis">Gratis voor leden</span>
+        <h3>Acute hulplijn 24/7</h3>
+        <p>Bel 088 - 17 17 345, dag en nacht bereikbaar voor leden.</p>
+        <div class="dienst-tile-detail">
+          Een speciaal nummer dat altijd open is voor leden. Voor acute zorgvragen, paniekmomenten, of als je gewoon iemand wilt spreken. Bij levensgevaar bel je natuurlijk eerst 112.
+        </div>
+        <span class="dienst-tile-toggle">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+      </button>
+
+      <button class="dienst-tile" onclick="this.classList.toggle('expanded')">
+        <span class="dienst-badge gratis">Gratis voor leden</span>
+        <h3>Zlimthuis Thuisscan</h3>
+        <p>Onze adviseur kijkt mee waar je woning veiliger kan.</p>
+        <div class="dienst-tile-detail">
+          Of het nu om de keuken, de badkamer of de voordeur gaat — onze expert komt langs, kijkt rond en geeft praktische tips. Van valpreventie tot betere verlichting. Geheel vrijblijvend en gratis voor leden.
+        </div>
+        <span class="dienst-tile-toggle">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+<!-- HULPMIDDELEN -->
+<section class="diensten-section section-cream" id="hulpmiddelen">
+  <div class="container">
+    <div class="cat-header reveal">
+      <div class="cat-photo">
+        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=600&q=80" alt="Mensen samen, ondersteunende hand">
+      </div>
+      <div>
+        <h2>Hulpmiddelen lenen</h2>
+        <p>Tijdelijk of langer een hulpmiddel nodig? Leden lenen loophulpmiddelen <strong>altijd gratis</strong>.</p>
+      </div>
+    </div>
+    <div class="dienst-tiles reveal-stagger">
+
+      <button class="dienst-tile" onclick="this.classList.toggle('expanded')">
+        <span class="dienst-badge gratis">Gratis voor leden</span>
+        <h3>Rollator lenen</h3>
+        <p>Voor leden, geen borg, zo lang als nodig.</p>
+        <div class="dienst-tile-detail">
+          Loop je tijdelijk minder goed? Of zoek je iets om verder te kunnen wandelen? Onze rollators staan klaar bij ons uitleenpunt in Wehl, of bij Medipoint. Geen borg, geen tijdslimiet. Gewoon lenen.
+        </div>
+        <span class="dienst-tile-toggle">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+      </button>
+
+      <button class="dienst-tile" onclick="this.classList.toggle('expanded')">
+        <span class="dienst-badge gratis">Gratis voor leden</span>
+        <h3>Krukken lenen</h3>
+        <p>Onderarm- of okselkrukken, in alle maten.</p>
+        <div class="dienst-tile-detail">
+          Na een operatie of bij een blessure. We hebben krukken in alle maten beschikbaar. Direct mee te nemen vanuit ons uitleenpunt of door Medipoint thuisbezorgd.
+        </div>
+        <span class="dienst-tile-toggle">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+      </button>
+
+      <button class="dienst-tile" onclick="this.classList.toggle('expanded')">
+        <span class="dienst-badge ledenvoordeel">Met ledenvoordeel</span>
+        <h3>Douchestoel</h3>
+        <p>Veilig douchen, tegen ledenprijs bij Medipoint.</p>
+        <div class="dienst-tile-detail">
+          Voor wie graag onafhankelijk wil blijven douchen. Verschillende modellen leverbaar — vast of opvouwbaar. Met ledenkorting bij Medipoint.
+        </div>
+        <span class="dienst-tile-toggle">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+      </button>
+
+      <button class="dienst-tile" onclick="this.classList.toggle('expanded')">
+        <span class="dienst-badge gratis">Gratis voor leden</span>
+        <h3>Eenvoudige hulpmiddelen</h3>
+        <p>Bij ons uitleenpunt in Wehl direct af te halen.</p>
+        <div class="dienst-tile-detail">
+          Bij de balie van Kruiswerk in Wehl (Beatrixplein 1) kun je terecht voor eenvoudige hulpmiddelen. Direct meenemen, gratis voor leden.
+        </div>
+        <span class="dienst-tile-toggle">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+<!-- WINKEL / MEDIPOINT -->
+<section class="diensten-section section-paper" id="winkel">
+  <div class="container">
+    <div class="cat-header reveal">
+      <div class="cat-photo">
+        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=600&q=80" alt="Winkel met hulpmiddelen en producten">
+      </div>
+      <div>
+        <h2>Winkel — Medipoint partnership</h2>
+        <p>Als lid krijg je <strong>10% korting op het volledige koopassortiment van Medipoint</strong>. Plus gratis lenen van loophulpmiddelen.</p>
+      </div>
+    </div>
+    <div class="dienst-tiles reveal-stagger">
+
+      <button class="dienst-tile" onclick="this.classList.toggle('expanded')">
+        <span class="dienst-badge ledenvoordeel">10% korting</span>
+        <h3>Volledig assortiment Medipoint</h3>
+        <p>10% korting op het hele online assortiment van Medipoint.</p>
+        <div class="dienst-tile-detail">
+          Verzorgingsproducten, hulpmiddelen, mobiliteitshulpmiddelen, sta-op-stoelen — voor alles geldt: leden van Kruiswerk krijgen 10% korting bij Medipoint. Online bestellen of bij een Medipoint-winkel.
+        </div>
+        <span class="dienst-tile-toggle">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+      </button>
+
+      <button class="dienst-tile" onclick="this.classList.toggle('expanded')">
+        <span class="dienst-badge gratis">Gratis voor leden</span>
+        <h3>Loophulpmiddelen huren</h3>
+        <p>Krukken, rollators, looprekken — gratis bij Medipoint.</p>
+        <div class="dienst-tile-detail">
+          Naast de korting op koop, kun je als Kruiswerk-lid ook kosteloos loophulpmiddelen huren bij Medipoint. Krukken, rollators, looprekken, wandelstokken. Zonder borg, zonder tijdslimiet.
+        </div>
+        <span class="dienst-tile-toggle">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+      </button>
+
+      <button class="dienst-tile" onclick="this.classList.toggle('expanded')">
+        <span class="dienst-badge ledenvoordeel">Met ledenvoordeel</span>
+        <h3>Medipoint Mobiliteitsdagen</h3>
+        <p>Probeer hulpmiddelen, ontmoet experts, en profiteer van extra acties.</p>
+        <div class="dienst-tile-detail">
+          Drie keer per jaar organiseert Medipoint Mobiliteitsdagen op locatie — Winterswijk, Zutphen, en in onze regio. Probeer producten uit, krijg gratis advies, en profiteer van extra ledenkortingen op die dag.
+        </div>
+        <span class="dienst-tile-toggle">Lees meer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA naar lid worden -->
+<section class="join">
+  <div class="container join-inner">
+    <span class="join-eyebrow">Profiteer ook</span>
+    <h2 class="join-title">Voor minder dan een<br>
+      <span class="join-title-underlined">
+        <em class="serif">kopje koffie</em>
+        <svg class="join-underline" viewBox="0 0 400 24" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M 5,14 Q 60,4 120,12 Q 180,22 240,10 Q 300,2 395,14"
+                stroke="currentColor" stroke-width="3" stroke-linecap="round" fill="none"
+                pathLength="1" class="join-underline-path"/>
+        </svg>
+      </span>
+      <br>per maand.
+    </h2>
+    <p class="join-text">Sluit je aan bij 63.000+ leden en profiteer van al deze diensten.</p>
+    <a href="lid-worden.html" class="join-cta">
+      Word vandaag nog lid
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg>
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html"><img src="assets/logo/Kruiswerk-logo-wit.png" alt="Kruiswerk"></a>
+        <p>De grootste vereniging van de regio. Voor iedereen, in alle fases van je leven — sinds 1875.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pagina's</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="diensten.html">Diensten</a></li>
+          <li><a href="activiteiten.html">Activiteiten</a></li>
+        <li><a href="nieuws.html">Nieuws</a></li>
+        <li><a href="https://winkel.kruiswerk.nl" target="_blank" rel="noopener">Winkel</a></li>
+          <li><a href="lid-worden.html">Lid worden</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Diensten</h4>
+        <ul>
+          <li><a href="diensten.html#service">Service aan huis</a></li>
+          <li><a href="diensten.html#alarmering">Alarmering</a></li>
+          <li><a href="diensten.html#hulpmiddelen">Hulpmiddelen</a></li>
+          <li><a href="diensten.html#winkel">Winkel</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:0314357430">0314 - 357 430</a></div>
+        <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:info@kruiswerk.nl">info@kruiswerk.nl</a></div>
+        <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span style="font-size:13px;">Beatrixplein 1, 7031 AJ Wehl</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 1875–2026 Kruiswerk Achterhoek en Liemers · KvK 40124612</span>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy</a>
+        <a href="#">Cookies</a>
+        <a href="#">Algemene voorwaarden</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="chatbot" id="chatbot" role="dialog" aria-labelledby="chatbotName" aria-hidden="true">
+  <div class="chatbot-header">
+    <div class="chatbot-avatar"><img src="assets/img/bente.png" alt="Bente"></div>
+    <div class="chatbot-info">
+      <div class="chatbot-name" id="chatbotName">Bente</div>
+      <div class="chatbot-role">Ledenconsulent · Online</div>
+    </div>
+    <button class="chatbot-close" type="button" onclick="closeChat()" aria-label="Sluiten"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+  </div>
+  <div class="chatbot-messages" id="chatMessages">
+    <div class="msg bot">
+      Hoi, ik ben Bente. Waar kan ik je mee helpen? 👋
+      <div class="msg-suggestions">
+        <button type="button" class="msg-suggestion" onclick="askChat('Hoe word ik lid?')">Hoe word ik lid?</button>
+        <button type="button" class="msg-suggestion" onclick="askChat('Mantelzorg')">Mantelzorg</button>
+      </div>
+    </div>
+  </div>
+  <form class="chatbot-input" onsubmit="sendChatMessage(event)">
+    <input type="text" id="chatInput" placeholder="Typ je vraag..." autocomplete="off">
+    <button type="submit" aria-label="Verstuur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></button>
+  </form>
+</div>
+
+<button class="chat-fab" id="chatFab" type="button" onclick="openChat()" aria-label="Chat met Bente"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></button>
+
+<script src="script.js"></script>
+</body>
+</html>

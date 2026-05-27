@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lid worden — Kruiswerk</title>
+<meta name="description" content="Word lid van Kruiswerk voor €2,06 per maand. Profiteer van 40+ diensten aan huis. Aanmelden duurt minder dan 5 minuten.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@1,8..60,400;1,8..60,500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="assets/logo/Logo-Kruiswerk-2021-RGB_beeldmerk.png">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Direct naar inhoud</a>
+
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div class="topbar-contact">
+      <a href="tel:0314357430"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> 0314 - 357 430 <span style="opacity:.6;">(ma–vr 9–13u)</span></a>
+      <a href="tel:0881717345" class="topbar-acuut"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/></svg> Acuut: 088 - 17 17 345</a>
+    </div>
+    <div class="topbar-utility">
+      <button id="textSizeBtn" type="button">Aa Tekst groter</button>
+      <button id="contrastBtn" type="button">◐ Contrast</button>
+    </div>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="header-logo"><img src="assets/logo/Kruiswerk-logo-zwart.png" alt="Kruiswerk"></a>
+    <nav aria-label="Hoofdmenu">
+      <ul class="nav-main">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="diensten.html">Diensten</a></li>
+        <li><a href="activiteiten.html">Activiteiten</a></li>
+        <li><a href="nieuws.html">Nieuws</a></li>
+        <li><a href="https://winkel.kruiswerk.nl" target="_blank" rel="noopener">Winkel</a></li>
+        <li><a href="lid-worden.html" class="active">Lid worden</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="lid-worden.html" class="btn btn-primary">Word lid</a>
+    <button class="menu-toggle" type="button" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-hero">
+  <div class="container page-hero-inner">
+    <span class="eyebrow">Lid worden</span>
+    <h1>Welkom! Fijn dat je <em class="serif">erbij wilt</em> komen</h1>
+    <p>In een paar minuten ben je lid. We vragen alleen wat we echt nodig hebben.</p>
+  </div>
+</section>
+
+<section class="form-page section-cream">
+  <div class="container form-wrap">
+
+    <div class="form-success" id="formSuccess" hidden>
+      <div class="form-success-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20,6 9,17 4,12"/></svg>
+      </div>
+      <h2>Welkom bij <em class="serif">Kruiswerk!</em></h2>
+      <p>Bedankt voor je aanmelding. Je ontvangt binnen drie werkdagen een bevestiging per e-mail. Heb je vragen? Bel ons op <a href="tel:0314357430">0314 - 357 430</a>.</p>
+      <a href="index.html" class="btn btn-ink btn-large">Terug naar home</a>
+    </div>
+
+    <form id="lidForm" class="form-card" novalidate>
+      <div class="form-progress">
+        <div class="form-progress-label">Stap 1 van 4</div>
+        <div class="form-progress-track">
+          <div class="form-progress-bar" style="width: 25%"></div>
+        </div>
+      </div>
+
+      <!-- Stap 1: Persoon -->
+      <div class="form-step">
+        <h2>Wie ben <em class="serif">je?</em></h2>
+        <p class="form-step-intro">We beginnen met de basis. Velden met een sterretje (*) zijn verplicht.</p>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="voornaam">Voornaam *</label>
+            <input type="text" id="voornaam" name="voornaam" required autocomplete="given-name">
+          </div>
+          <div class="form-field">
+            <label for="achternaam">Achternaam *</label>
+            <input type="text" id="achternaam" name="achternaam" required autocomplete="family-name">
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="geboortedatum">Geboortedatum *</label>
+          <span class="hint">Bijvoorbeeld: 15-03-1995</span>
+          <input type="date" id="geboortedatum" name="geboortedatum" required autocomplete="bday">
+        </div>
+
+        <div class="form-actions">
+          <div class="form-actions-spacer"></div>
+          <button type="button" class="btn btn-primary btn-large" data-next>
+            Volgende
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Stap 2: Contact -->
+      <div class="form-step" hidden>
+        <h2>Hoe <em class="serif">bereiken</em> we je?</h2>
+        <p class="form-step-intro">Voor je welkomstbrief en eventuele vragen.</p>
+
+        <div class="form-field">
+          <label for="email">E-mailadres *</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+        <div class="form-field">
+          <label for="telefoon">Telefoonnummer *</label>
+          <input type="tel" id="telefoon" name="telefoon" required autocomplete="tel">
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="postcode">Postcode *</label>
+            <input type="text" id="postcode" name="postcode" required autocomplete="postal-code" maxlength="7">
+          </div>
+          <div class="form-field">
+            <label for="huisnummer">Huisnummer *</label>
+            <input type="text" id="huisnummer" name="huisnummer" required>
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="straat">Straatnaam *</label>
+          <input type="text" id="straat" name="straat" required autocomplete="street-address">
+        </div>
+
+        <div class="form-actions">
+          <button type="button" class="btn btn-outline" data-prev>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12,19 5,12 12,5"/></svg>
+            Vorige
+          </button>
+          <div class="form-actions-spacer"></div>
+          <button type="button" class="btn btn-primary btn-large" data-next>
+            Volgende
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Stap 3: Betaling -->
+      <div class="form-step" hidden>
+        <h2>Hoe wil je <em class="serif">betalen?</em></h2>
+        <p class="form-step-intro">€2,06 per maand. Kies wat je het prettigst vindt.</p>
+
+        <div class="form-radio-group">
+          <label class="form-radio">
+            <input type="radio" name="betaalwijze" value="jaar" required checked>
+            <div class="form-radio-label">
+              <strong>Per jaar — €24,72</strong>
+              <span>Eén afschrijving per jaar. Het meest gekozen.</span>
+            </div>
+          </label>
+          <label class="form-radio">
+            <input type="radio" name="betaalwijze" value="kwartaal">
+            <div class="form-radio-label">
+              <strong>Per kwartaal — €6,18</strong>
+              <span>Vier afschrijvingen per jaar.</span>
+            </div>
+          </label>
+          <label class="form-radio">
+            <input type="radio" name="betaalwijze" value="maand">
+            <div class="form-radio-label">
+              <strong>Per maand — €2,06</strong>
+              <span>Twaalf afschrijvingen per jaar.</span>
+            </div>
+          </label>
+        </div>
+
+        <div class="form-field" style="margin-top: var(--sp-5);">
+          <label for="iban">IBAN-nummer *</label>
+          <span class="hint">Bijvoorbeeld: NL00 ABCD 0123 4567 89</span>
+          <input type="text" id="iban" name="iban" required>
+        </div>
+
+        <div class="form-actions">
+          <button type="button" class="btn btn-outline" data-prev>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12,19 5,12 12,5"/></svg>
+            Vorige
+          </button>
+          <div class="form-actions-spacer"></div>
+          <button type="button" class="btn btn-primary btn-large" data-next>
+            Volgende
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Stap 4: Bevestigen -->
+      <div class="form-step" hidden>
+        <h2>Bijna <em class="serif">klaar!</em></h2>
+        <p class="form-step-intro">Controleer je gegevens en bevestig je aanmelding.</p>
+
+        <div class="form-summary">
+          <h3>Je lidmaatschap</h3>
+          <dl>
+            <dt>Lidmaatschap:</dt><dd>Per kalenderjaar (1 januari t/m 31 december)</dd>
+            <dt>Bedrag:</dt><dd>€2,06 per maand · €24,72 per jaar</dd>
+            <dt>Inbegrepen:</dt><dd>Het hele huishouden · 40+ diensten · gratis hulpmiddelen · acute hulplijn</dd>
+            <dt>Aanvulling op:</dt><dd>Je zorgverzekering, thuiszorg of kraamzorg</dd>
+          </dl>
+        </div>
+
+        <label class="form-checkbox">
+          <input type="checkbox" name="voorwaarden" required>
+          <span>Ik ga akkoord met de <a href="#">algemene voorwaarden</a> en het <a href="#">privacybeleid</a>.</span>
+        </label>
+
+        <label class="form-checkbox">
+          <input type="checkbox" name="nieuwsbrief">
+          <span>Ja, houd me op de hoogte van nieuws en activiteiten via de Kruiswerk-nieuwsbrief.</span>
+        </label>
+
+        <div class="form-actions">
+          <button type="button" class="btn btn-outline" data-prev>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12,19 5,12 12,5"/></svg>
+            Vorige
+          </button>
+          <div class="form-actions-spacer"></div>
+          <button type="submit" class="btn btn-primary btn-large">
+            Aanmelding verzenden
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20,6 9,17 4,12"/></svg>
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <p style="text-align:center; margin-top: var(--sp-5); color: var(--kw-text-soft); font-size: 14px;">
+      Liever telefonisch aanmelden? Bel <a href="tel:0314357430">0314 - 357 430</a> (ma–vr 9–13 uur).
+    </p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html"><img src="assets/logo/Kruiswerk-logo-wit.png" alt="Kruiswerk"></a>
+        <p>De grootste vereniging van de regio. Voor iedereen, in alle fases van je leven — sinds 1875.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pagina's</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="diensten.html">Diensten</a></li>
+          <li><a href="activiteiten.html">Activiteiten</a></li>
+        <li><a href="nieuws.html">Nieuws</a></li>
+        <li><a href="https://winkel.kruiswerk.nl" target="_blank" rel="noopener">Winkel</a></li>
+          <li><a href="lid-worden.html">Lid worden</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Diensten</h4>
+        <ul>
+          <li><a href="diensten.html#service">Service aan huis</a></li>
+          <li><a href="diensten.html#alarmering">Alarmering</a></li>
+          <li><a href="diensten.html#hulpmiddelen">Hulpmiddelen</a></li>
+          <li><a href="diensten.html#winkel">Winkel</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:0314357430">0314 - 357 430</a></div>
+        <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:info@kruiswerk.nl">info@kruiswerk.nl</a></div>
+        <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span style="font-size:13px;">Beatrixplein 1, 7031 AJ Wehl</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 1875–2026 Kruiswerk Achterhoek en Liemers · KvK 40124612</span>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy</a>
+        <a href="#">Cookies</a>
+        <a href="#">Algemene voorwaarden</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="chatbot" id="chatbot" role="dialog" aria-labelledby="chatbotName" aria-hidden="true">
+  <div class="chatbot-header">
+    <div class="chatbot-avatar"><img src="assets/img/bente.png" alt="Bente"></div>
+    <div class="chatbot-info">
+      <div class="chatbot-name" id="chatbotName">Bente</div>
+      <div class="chatbot-role">Ledenconsulent · Online</div>
+    </div>
+    <button class="chatbot-close" type="button" onclick="closeChat()" aria-label="Sluiten"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+  </div>
+  <div class="chatbot-messages" id="chatMessages">
+    <div class="msg bot">Hoi, ik ben Bente. Waar kan ik je mee helpen? 👋</div>
+  </div>
+  <form class="chatbot-input" onsubmit="sendChatMessage(event)">
+    <input type="text" id="chatInput" placeholder="Typ je vraag..." autocomplete="off">
+    <button type="submit" aria-label="Verstuur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12,5 19,12 12,19"/></svg></button>
+  </form>
+</div>
+
+<button class="chat-fab" id="chatFab" type="button" onclick="openChat()" aria-label="Chat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></button>
+
+<script src="script.js"></script>
+</body>
+</html>
